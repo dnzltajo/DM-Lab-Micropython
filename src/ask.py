@@ -28,7 +28,7 @@ while(1):
     for i in stream:
         if i == 0:
             #Logic 0 signal
-            dac.write_timed(buf2, 100 * len(buf), mode=DAC.CIRCULAR)
+            dac.write_timed(buf2, 100 * len(buf2), mode=DAC.CIRCULAR)
             pyb.delay(60)
         else:  
             ask()
