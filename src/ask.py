@@ -4,7 +4,7 @@ import pyb
 from array import array
 from pyb import DAC
 
-#NOTE: For frequencies less than 100 change delay to 1000ms
+#NOTE: For frequencies less than 100Hz change delay to 1000ms
 
 #Buffer containing sine wave 
 buf = array('H', 2048 + int(2047 * math.sin(2 * math.pi * i /256)) for i in range(256))
