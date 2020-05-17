@@ -25,7 +25,7 @@ while(1):
     for i in stream:
         if i == 0:
             #Space Frequency (Fs), Logic 0
-            dac.write_timed(buf, 100 * len(buf2), mode=DAC.CIRCULAR)    
+            dac.write_timed(buf, 100 * len(buf), mode=DAC.CIRCULAR)    
             pyb.delay(60)
         else:  
             fsk()
