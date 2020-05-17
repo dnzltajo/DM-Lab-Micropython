@@ -1,5 +1,4 @@
 import math
-import micropython
 import pyb
 from array import array
 from pyb import DAC
