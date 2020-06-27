@@ -1,1 +1,0 @@
-The switch ver uses the USR switch on the Pyboard for input logic 1
