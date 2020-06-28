@@ -3,6 +3,28 @@
 
 Experimental simulations of Digital Modulation using the Pyboard's DAC
 
+## Library Usage
+```python
+import digimod
+from pyb import DAC
+
+#Data Values
+stream = (0,1,1,0,1)
+#Assign DAC pin X5
+dac = DAC(1, bits=12) 
+
+dmod = digimod.Dmodulate(dac)
+
+#Amplitude shift keying
+dmod.ask(0.6, 100, stream) #Amplitude(range of 0 - 1), Frequency, Data stream
+
+#Frequency shift keying
+dmod.fsk(100, 200, stream) #Space, Mark, Data stream   
+
+#Phase shift keying
+dmod.psk(-1, 100, stream) #Offset(BPSK), Frequency, Data stream
+```
+
 ## Frequency Shift Keying
 
 <p align="center">
