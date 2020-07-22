@@ -28,19 +28,19 @@ dmod.psk(-1, 100, stream) #Offset(BPSK), Frequency, Data stream
 ## Frequency Shift Keying
 
 <p align="center">
-  <img width="900" height="500" src="https://raw.githubusercontent.com/dnzltajo/DM-Lab-Micropython/raw/master/images/Screenshot%20from%202020-05-15%2017-52-03.png">
+  <img width="900" height="500" src="https://raw.githubusercontent.com/dnzltajo/DM-Lab-Micropython/master/images/Screenshot%20from%202020-05-15%2017-52-03.png">
 </p> 
 
 ## Amplitude Shift Keying
 
 <p align="center">
-  <img width="900" height="500" src="https://raw.githubusercontent.com/dnzltajo/DM-Lab-Micropython/raw/master/images/Screenshot%20from%202020-05-17%2010-46-21.png">
+  <img width="900" height="500" src="https://raw.githubusercontent.com/dnzltajo/DM-Lab-Micropython/master/images/Screenshot%20from%202020-05-17%2010-46-21.png">
 </p> 
 
 ## Phase Shift Keying
 
 <p align="center">
-  <img width="900" height="500" src="https://raw.githubusercontent.com/dnzltajo/DM-Lab-Micropython/raw/master/images/Screenshot%20from%202020-05-17%2010-54-58.png">
+  <img width="900" height="500" src="https://raw.githubusercontent.com/dnzltajo/DM-Lab-Micropython/master/images/Screenshot%20from%202020-05-17%2010-54-58.png">
 </p> 
 
 ## References
