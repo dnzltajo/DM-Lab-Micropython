@@ -3,7 +3,7 @@
 
 Experimental simulations of Digital Modulation using the Pyboard's DAC
 
-## Library Usage
+## Usage
 ```python
 import digimod
 from pyb import DAC
