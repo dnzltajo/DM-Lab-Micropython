@@ -1,4 +1,4 @@
-#Unlicense
+#Unlicense ~dnzltajo
 
 from math import sin, pi
 from array import array
