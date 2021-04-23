@@ -1,5 +1,8 @@
-#Unlicense ~dnzltajo
-
+#-----------------------------------------------------------------------
+#This is free and unencumbered software released into the public domain.
+#Released under the Unlicense License (Unlicense)
+#(C) 2020 Denzel Tajo
+#----------------------------------------------------------------------
 from math import sin, pi
 from array import array
 from pyb import DAC, delay
